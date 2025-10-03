@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px ;
+    background: linear-gradient(90deg, #000000 0%, #47000A 25%, #800020 75%, #000000 100%);
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+nav ul li a {
+    color: white;          
+    text-decoration: none; 
+    font-size: 18px;
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo{
+  font-family: "Miss Fajardose", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+
+  color: whitesmoke;
+
+}
+
+.myIntro {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 75vh;
+    color: whitesmoke;
+    justify-content: space-evenly;
+    align-items: center;
+    background: radial-gradient(ellipse at center, #8B0000 0%, #1A000F 50%, #000000 100%);
+}
+.myIntro h2{
+    font-family: "Schoolbell", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+.intro_text p{
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 100px; */
+    
+}
+
+div img {
+    height: 300px;
+    border-radius: 25%;
+}
+
+.intro_text {
+    text-align: center;
+    font-size: large;
+}
+
+.projects h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 50px;
+    color: whitesmoke;
+    background: radial-gradient(ellipse at center, #8A0F24 0%, #2C001F 60%, #000000 100%);
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pro {
+    display: flex;
+    justify-content: space-around;
+    background: radial-gradient(ellipse at center, #8A0F24 0%, #2C001F 60%, #000000 100%);
+}
+
+.project {
+    margin: 10px;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;margin: 10px;
+    height: 400px;
+    width: 800px;
+    padding: 1rem;
+    color: whitesmoke;
+    background-color: #20000F;
+    text-align: center;
+    flex-wrap: wrap;
+    border-radius: 15%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.footer{
+    background-color: #11020c;
+    color: gray;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Hover css */
+ul li a:hover {
+    
+    color: rgb(241, 136, 136);
+    font-size: 22px;
+    transition-duration: 1s;
+}
+.logo:hover{
+    font-size: 51px;
+    transition-duration: 1s;
+}
+.project:hover{
+    margin: 10px;
+    height: 420px;
+    width: 820px;
+    padding: 1rem;
+    transition-duration: 1s;
+    transform: scale(1.02);
+    box-shadow: 0 12px 24px rgba(139, 0, 0, 0.4);
+}
+
+.project .tr{
+    font-size: 0px;
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    
+    
+}
+.button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.button button {
+
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15%;
+    font-family: "Schoolbell", cursive;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #550510;
+    color: rgb(190, 214, 234);
+    
+}
+.button button a{
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 15%;
+    font-family: "Schoolbell", cursive;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #550510;
+    color: rgb(190, 214, 234);
+    text-decoration: none;
+}
+.button button:hover{
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    transition-duration: 0.5s;
+}
+
+.project .tr:hover{
+    font-size: 28px;
+    transition-duration: 1s;
+}
+div img:hover{
+    height: 320px;
+    border-radius: 30%;
+    transition-duration: 1s;
+}
+
+
+
+
